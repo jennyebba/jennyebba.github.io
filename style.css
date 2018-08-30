@@ -1,0 +1,61 @@
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+.bg {
+	background-image: url("kane-reinholdtsen-145944-unsplash.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+.container {
+ 	position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-primary {
+	background-color: Purple;
+}	
+
+.btn-primary:hover {
+	background-color: Blue;
+	cursor: pointer;
+}
+
+header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 3rem;
+  white-space: nowrap;
+}
+
+p {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+
+
+
